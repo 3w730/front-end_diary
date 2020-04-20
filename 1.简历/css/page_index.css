@@ -1,0 +1,142 @@
+/* 背景的css */
+.backGround{
+    width: 640px;
+    background-color: white;
+    padding: 40px 40px 0px 40px;
+    margin: 10px auto;
+}
+
+/* 头部的css */
+.backGround .ftdiv{
+    background-color: #d9d9d9;
+    height: 60px;
+    text-align: center;
+    overflow:hidden;
+}
+
+.ftdiv .h1{
+    font-size: 30px;
+    font-family: "微软雅黑";
+    margin-top: 16px;
+    color:black;
+}
+
+/* 头部完成 */
+
+/* 第二部分css */
+.sddiv{
+    padding-left: 15px;
+    padding-top: 25px;
+
+}
+
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.sddiv ul{
+    width: 250px;
+    float:left;
+    margin-right: 40px;
+    margin-bottom: 18px;
+}
+
+.sddiv .introduce{
+    font:  11px,"微软雅黑";
+    color:black;
+    font-weight: normal;
+    margin: 0px auto 10px auto;
+
+}
+
+.content{
+    letter-spacing:20px;
+}
+
+.strong{
+    font-weight: bolder;
+}  
+
+.sp1{
+    margin-left: 10px;
+}
+
+/* 第二部分完成 */
+/* 第三部分css */
+.tddiv{
+    width: 640px;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+.head{
+    background-color: #d9d9d9;
+    height: 23px;
+    margin-bottom: 15px;
+}
+
+.h2{
+    background-color: black;
+    color: white;
+    width: 78px;
+    text-align: center;
+    line-height: 23px;
+    font:14px,"微软雅黑";
+}
+
+.tddiv .fthdiv{
+    font:10.5px,"微软雅黑";
+    color:black;
+    margin-left: 5px;
+    width: 590px;
+}
+
+.tddiv .sp{
+    font:10.5px,"微软雅黑";
+    color:black;
+    height: 16px;
+    position: relative;
+    margin-left: -10px;
+}
+
+.tddiv .sp .sp1{
+    position: absolute;
+    left: 0px;
+}
+
+.tddiv .sp .sp2{
+    position: absolute;
+    left: 270px;
+}
+
+.tddiv .sp .sp3{
+    position: absolute;
+    right: 0px;
+}
+
+.tddiv ul{
+    font:10.5px,"微软雅黑";
+    color:black;
+    width: 590px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.tddiv li{
+    font:10.5px,"微软雅黑";
+    color:black;
+    margin-left: 5px;
+    width: 590px;
+    margin-left: 20px;
+    list-style-type:disc;
+    margin-top: 5px;
+}
+
+.p2{
+    text-indent: 1em;
+}
+
+.tddiv .last{
+    margin-bottom: 20px;
+}
