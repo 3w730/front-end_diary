@@ -1,0 +1,600 @@
+.ftDiv{
+    height: 990px;
+    width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    background: url(../img/firstBackGround.png);
+    overflow: hidden;
+}
+
+.ftDiv h1{
+    font-size: 62px;
+    font-weight: normal;
+    font-family: "Myriad";
+    color: white;
+    margin-top: 210px;
+}
+
+.ftDiv p{
+    font-size:16px;
+    color:white;
+    font-family:Helvetica;
+    width: 770px;
+    text-align: center;
+    margin: 88px auto 104px auto;
+    opacity: 0.5;
+    filter：alpha(opacity=50);
+}
+
+.form1{
+    height: 250px;
+    margin: 0 auto;
+    width: 970px;
+    border: 1px solid rgba(255, 255, 255, 0.308);
+
+}
+
+.form1 h2{
+    font-size:16px;
+    color: white;
+    font-family: Arial;
+    margin:60px auto 20px auto;
+    
+}
+
+.form1 h3{
+    font-size:12px;
+    opacity: 0.5;
+    filter：alpha(opacity=50);
+    color: white;
+    margin-bottom: 44px;
+}
+
+.form1 .ipt1{
+    margin-right: 31px;
+    width: 272px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.308);
+    font-size: 14px;
+    color:white;
+    background-color: transparent;
+}
+
+.form1 .ipt2{
+    margin-right: 31px;
+    width: 272px;
+    height: 50px;
+    font-size: 14px;
+    padding-left: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.308);
+    background-color: transparent;
+}
+
+.form1 .submit{
+    height: 50px;
+    font-size: 18px;
+    width: 126px;
+}
+
+/* 头部css到此处完成了，主要麻烦的问题是透明度不太会弄，尤其是边框的透明度用rgba的方式，我还是不习惯 */
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.scdDiv{
+    width: 1600px;
+    height: 710px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.scdDiv h1{
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    margin-top: 90px;
+    margin-bottom: 45px;
+}
+
+.scdDiv h2{
+    text-align: center;
+    margin: 0 auto 85px auto;
+    font-size: 42px;
+    color: black;
+    width: 710px;
+}
+
+.scdDiv .d1{
+    width: 1016px;
+    height: 89px;
+    margin: 0 auto;
+    padding-left: 77px;
+    padding-right: 77px;
+}
+
+.scdDiv .d2{
+    width: 1016px;
+    height: 89px;
+    margin: 82px auto 0 auto;
+    padding-left: 77px;
+    padding-right: 77px;
+}
+
+.scdDiv  .img1{
+    float:left;
+    margin-right: 31px;
+}
+
+.scdDiv  .img2{
+    float:right;
+    margin-right: 31px;
+}
+
+.scdDiv .img3{
+    margin-right: 14px;
+    float: left;
+}
+
+.scdDiv .img4{
+    float:right;
+    margin-right: 31px;
+}
+
+.scdDiv .d1 .p1{
+    float:left;
+    width: 354px;
+    color:#bcbcbc;
+    height: 86px;
+}
+
+.scdDiv .d1 .p2{
+    float:right;
+
+    width: 354px;
+    height: 86px;
+    color:#bcbcbc;
+}
+
+.scdDiv .d2 .p3{
+    float:left;
+    color:#bcbcbc;
+    width: 354px;
+    height: 86px;
+}
+
+.scdDiv .d2 .p4{
+    float:right;
+    color:#bcbcbc;
+    width: 354px;
+    height: 86px;
+}
+
+.scdDiv span{
+    display: block;
+    font-size:20px;
+    color: #141414;
+    margin-bottom: 28px;
+}
+/* 第三部分css */
+.tdDiv{
+    background: url(../img/thirdBackGround.png);
+    width: 1600px;
+    height: 800px;
+    overflow: hidden;
+}
+
+.tdDiv .d3{
+    float: left;
+}
+
+.tdDiv h1{
+    font-size: 42px;
+    color: white;
+    font-family: Helvetica;
+    font-weight: 300;
+    width: 370px;
+    margin-top: 184px;
+    margin-left: 315px;
+}
+
+.tdDiv p{
+    font-size:15px;
+    color: #c5c8c4;
+    font-family: Helvetica;
+    width: 370px;
+    margin: 50px auto auto 315px;
+    line-height: 15px;
+    margin-bottom: 61px;
+    opacity: 0.5;
+    filter：alpha(opacity=50);
+}
+
+.tdDiv input{
+    width: 240px;
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.308);
+    text-align: center;
+    font-size: 14px;
+}
+
+.tdDiv input:hover{
+    background-color: white;
+    color: black;
+}
+
+.tdDiv .ipt3{
+    margin-left: 315px;
+    
+}
+
+.tdDiv .ipt4{
+    margin-left: 40px;
+    width: 240px;
+}
+
+.tdDiv .d4{
+    width:584px;
+    float: right;
+    margin-top: 104px;
+    padding:30px 0px 30px 60px;
+    border: 2px solid rgba(255, 255, 255, 0.408);
+    border-right: none;
+}
+/* 第三部分完成 */
+/* 第四部分css */
+.fthDiv{
+    background-color: white;
+    width: 1600px;
+    overflow: hidden;
+}
+
+.fthDiv .fthDiv_d1{
+    text-align: center;
+}
+
+.fthDiv h1{
+    color: black;
+    margin: 100px auto 90px auto;
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fthDiv img{
+    margin-right: 248px;
+}
+
+.fthDiv .img5{
+    margin-right: 0px;
+}
+
+.fthDiv .d4 p{
+    width: 218px;
+    float: left;
+    text-align: center;
+    margin-right: 135px;
+    font-size: 16px;
+    line-height:20px ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fthDiv .content{
+    margin: 0 auto;
+    height: 227px;
+    width: 1000px;
+    margin-top: 42px;
+}
+
+.fthDiv .content .p3{
+    margin-right: 0px;
+}
+
+.fthDiv .content .p1{
+    margin-left: 45px;
+}
+
+.fthDiv>div{
+    border-bottom: 1px solid black;
+}
+
+.fthDiv .d5{
+    width: 1600px;
+    height: 1000px;
+    overflow: hidden;
+    color: black;
+}
+
+.fthDiv .d5 img{
+    float: left;
+    width: 570px;
+    height: 350px;
+    margin: 115px 100px auto 315px;
+}
+
+.fthDiv .d5 h2{
+    font-size: 20px;
+    width: 330px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 195px 344px 38px auto;
+    font-weight: 700;
+}
+
+.fthDiv .d5 p{
+    font-size: 16;
+    width: 330px;
+    margin: 0px 344px auto auto;
+    color: #c1c1c1;
+    line-height: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fthDiv .d5 .h2{
+    margin:154px 79px 40px 315px;
+
+}
+.fthDiv .d5 .p2{
+    margin:0px 79px 0px 315px
+}
+
+.fthDiv .d5 .img7{
+    float: right;
+    width: 570px;
+    height: 350px;
+    margin: 80px 315px auto 0px;
+}
+
+.fthDiv .d6{
+    /* height: 1085px; */
+}
+.fthDiv .d6 p{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    color: #797979;
+}
+
+
+.fthDiv .d6 .img8{
+    width: 470px;
+    height: 340px;
+    overflow: hidden;
+    background: url(../img/fourth_img3.png);
+    margin: 30px 30px 0px 315px;
+    display: inline-block;
+    position: relative;
+}
+
+.fthDiv .d6 .img9{
+    display: inline-block;
+    width: 470px;
+    height: 340px;
+    background: url(../img/fourth_img4.png);
+}
+
+.fthDiv .d6 .img10{
+    width: 470px;
+    height: 340px;
+    background: url(../img/fourth_img5.png);
+    margin: 30px 30px 100px 315px;
+    display: inline-block;
+}
+
+.fthDiv .d6 .img11{
+    width: 470px;
+    height: 340px;
+    background: url(../img/fourth_img6.png);
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+.d6 .img8 h1{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin: 112px auto 18px auto;
+}
+
+.d6 .img8 h2{
+    width: 185px;
+    margin: 0 auto 37px auto;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+    color: #8d8480;
+
+}
+
+.d6 .img8 .logo4{
+    position: absolute;
+    left: 129px;
+    top: 194;
+    width: 51px;
+    height: 54px;
+}
+
+.d6 .img8 .logo5{
+    position: absolute;
+    width: 51px;
+    left: 210px;
+    top: 194;
+    height: 54px;
+}
+
+.d6 .img8 .logo6{
+    position: absolute;
+    width: 51px;
+    left: 291px;
+    top: 194;
+    height: 54px;
+}
+
+.d7 form{
+    width: 368px;
+    height: 560px;
+    padding-left: 51px;
+    padding-right: 51px;
+    margin-left: 314px;
+    margin-top: 71px; 
+    margin-bottom: 71px; 
+    border: 1px solid rgba(155, 149, 149, 0.408);
+}
+
+.d7 form h1{
+    margin-bottom: 46px;
+    font-size: 18px;
+    margin-top: 52px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.d7 form input{
+    display: block;
+    margin-bottom: 30px;
+    width: 370px;
+    height: 50px;
+    text-indent: 1em;
+}
+
+.d7 form textarea{
+    color: #8d8480;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 125px;
+    width: 370px;
+    padding-top: 20px;
+    margin-bottom: 32px;
+    text-indent: 1em;
+    resize:none;
+    overflow: hidden;
+}
+
+
+.d7 form .send{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    width: 375px;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.d7 .d7_right{
+    float: right;
+    width: 400px;
+    height: 361px;
+    margin-right: 285px;
+    padding: 88px auto 111px auto;
+    color: black;
+}
+
+.d7 .d7_right h1{
+    text-align: left;
+    display: block;
+    width: 170px;
+    margin-left: 30px;
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 42px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.d7 .d7_right .p1{
+    color: #6e6e6e;
+    margin-left: 30px;
+    width: 354px;
+    margin-bottom: 33px;
+}
+
+.d7_right img{
+    margin-left: 30px;
+    margin-right: 19px;
+    float: left;
+}
+
+.d7_right .p2{
+    height: 44px;
+    font-size: 16px;
+    margin-top: 39px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+
+}
+
+.d7 .d7_right .lgo7{
+    width: 19px;
+    height: 19px;
+}
+.d7 .d7_right .lgo8{
+    width: 24px;
+    height: 24px;
+}
+.d7 .d7_right .lgo9{
+    width: 24px;
+    height: 19px;
+}
+
+.d7_right .p3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-top:-20px ;
+    margin-left: 71px;
+}
+/* 最后一部分 */
+
+.fvthDiv{
+    width: 1600px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.fvthDiv .d8{
+    margin-left: 200px;
+    width: 160px;
+    float: left;
+    margin-top: 89px;
+    line-height: 40px;
+    margin-bottom: 125px;
+}
+
+.fvthDiv p{
+    color: white;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fvthDiv .s1{
+    width: 100%;
+    font-size: 16px;
+    color:#757575;
+    text-decoration: none;
+    margin-bottom: 35px;
+}
+
+.fvthDiv .s2{
+    width: 100%;
+    font-size: 16px;
+    color:#757575;
+    text-decoration: none;
+    margin-bottom: 35px;
+}
+.fvthDiv .img_button{
+    margin-left:24px;
+}
+
+.fvthDiv .img_button1{
+    margin-left: 0px;
+}
+
+.fvthDiv .d9{
+    margin-left: 200px;
+    width: 244px;
+    float: left;
+    margin-top: 89px;
+    line-height: 40px;
+    margin-bottom: 125px;
+}
